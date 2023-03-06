@@ -1,0 +1,68 @@
+#page-main {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+#page-main main {
+    margin: 1.8rem auto;
+    width: 90%;
+}
+
+
+
+#page-main main form button {
+    width: 100%;
+    height: 5rem;
+    
+    background: var(--color-button-dark);
+    color: var(--color-title-in-primary);
+
+    border: 0;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+
+    margin-top: 1.8rem;
+
+    cursor: pointer;
+    
+}
+
+
+
+@media (min-width: 700px) {
+    #page-main {
+        max-width: 100vw;
+        
+    }
+
+    
+
+    #page-main main {
+        padding: 1.8rem 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+ 
+    #page-main main form {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 20px;
+        
+    }
+
+    #page-main main form .buttons:first-child {
+        margin-top: 1.2rem;
+    }
+
+    #page-main main form button {
+        height: 4rem;
+        width: 10rem;
+        margin-top: 3.6rem;
+    }
+    
+    
+}
